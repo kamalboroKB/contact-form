@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <section class="section-1 col-lg-6">
+        <h2 class="display-2">Addition</h2>
+
+            <div class="card">
+                    
+        <form action="contact.php" class="form col-lg-9" method="post">
+    
+            <div class="form-group">
+            <label for="">First Name</label>
+            <input type="text" class="form-control" name="Fname" required>
+            </div>
+            <div class="form-group">
+            <label for="">Last Name</label>
+            <input type="text" class="form-control" name="Lname" required>
+            </div>
+            <div class="form-group">
+                <label for="">Email</label>
+                <input type="email" class="form-control" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Gender</label><br>
+                    male
+                    <input type="radio" name="gender" value="Male" required>
+                    female
+                    <input type="radio" name="gender" value="Female" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="">Address</label>
+                       <textarea name="textarea" id="" cols="30" rows="10" class="form-control" required></textarea>
+                        </div>
+        <div class="form-group" id="add-button">
+            <input type="submit" value="Add" class="btn btn-primary">
+            
+            </div>
+            
+                             
+        </form> 
+
+            </div>
+  
+    </section>
+</body>
+</html>
